@@ -17,6 +17,9 @@ export default defineConfig({
     //   ],
     // }),
   ],
+  server: {
+    host: '0.0.0.0'
+  },
    // antd4 需要开启此部分
   // css: {
   //   preprocessorOptions: {
